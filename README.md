@@ -130,7 +130,7 @@ Latest additions include: Modpack Installer, Server Templates, Disk & Network Mo
 |---|---|
 | **Website** | https://therw.de |
 | **Panel** | https://panel.therw.de |
-| **Modrinth (Plugins)** | https://modrinth.com/user/Thurindir |
+| **Modrinth (Plugins)** | [https://modrinth.com/user/Thurindir](https://modrinth.com/organization/rosewood) |
 
 ---
 
