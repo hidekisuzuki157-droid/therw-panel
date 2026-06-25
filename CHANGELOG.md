@@ -4,6 +4,19 @@ All notable changes to THERW Panel are documented here.
 
 ---
 
+## [1.6.0] – 2026-06-25
+
+### Added
+- **Interactive Demo** — Fully navigable demo at `panel.therw.de/demo.php`. Includes a simulated server import flow (SSH key → connect → discover services → import) and a simulated game server creation flow (template picker → configure → Wings install steps). Fake console accepts real commands (`help`, `tps`, `gc`, `list`). Newly created/imported servers appear in the demo sidebar after completion.
+- **SSH-Key Node Setup** — Root password is no longer required when connecting a new node. The panel generates a persistent ed25519 key pair; users add the public key to their server with a single copy-paste command. After setup, the key can be revoked at any time. No credentials are transmitted to or stored by the panel.
+- **GitHub presence** — Public repository at `github.com/hidekisuzuki157-droid/therw-panel` with README, Changelog, API docs, issue templates and a roadmap issue.
+
+### Changed
+- Node setup page redesigned: replaced password field with SSH-key instructions, security explanation box and „Kein Passwort übertragen" badge.
+- Landing page (therw.de): updated Import feature card, Setup step description, added Import FAQ entry, added „Warum ist therw.de kostenlos?" FAQ entry, added GitHub links (nav, contact section, footer), added Demo button in hero and CTA sections.
+
+---
+
 ## [1.5.0] – 2026-06-25
 
 ### Added

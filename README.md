@@ -32,8 +32,8 @@ THERW Panel extends Pterodactyl with a custom dashboard layer — keeping Wings 
 
 | Feature | Description |
 |---|---|
-| 🖥️ **Self-Service Node Setup** | Connect your own root server via IP + SSH key. Wings installs automatically in the background. |
-| 📥 **Import Existing Services** | Embed already-running systemd services (e.g. a Minecraft server) without Docker migration. |
+| 🖥️ **Self-Service Node Setup** | Connect your own root server with an SSH key (no password required). Wings installs automatically in the background. |
+| 📥 **Import Existing Services** | Embed already-running systemd services (e.g. a Minecraft server) without Docker migration. A lightweight Python agent delivers live metrics, console access and file management directly into the dashboard. |
 | 📊 **Live Resource Monitoring** | Real-time CPU, RAM, disk and network sparklines for every server — Wings and imported alike. |
 | 💾 **Backups & Schedules** | Create, download and restore backups. Automatic backup schedules (hourly / daily / weekly). |
 | 🔁 **Task Scheduler** | Schedule restarts, commands or power actions — by interval, daily or weekly. No cron knowledge needed. |
@@ -120,7 +120,7 @@ Have an idea? **[Open a feature request →](https://github.com/hidekisuzuki157-
 
 See **[CHANGELOG.md](CHANGELOG.md)** for the full version history.
 
-Latest additions include: Modpack Installer, Server Templates, Disk & Network Monitoring, Task Scheduler, Public REST API, Automatic Backup Schedules.
+Latest additions include: SSH-Key node setup (no password), Interactive Demo, Modpack Installer, Server Templates, Disk & Network Monitoring, Task Scheduler, Public REST API, Automatic Backup Schedules.
 
 ---
 
@@ -130,7 +130,8 @@ Latest additions include: Modpack Installer, Server Templates, Disk & Network Mo
 |---|---|
 | **Website** | https://therw.de |
 | **Panel** | https://panel.therw.de |
-| **Modrinth (Plugins)** | [https://modrinth.com/user/Thurindir](https://modrinth.com/organization/rosewood) |
+| **Interactive Demo** | https://panel.therw.de/demo.php |
+| **Modrinth (Plugins)** | [Rosewood auf Modrinth](https://modrinth.com/organization/rosewood) |
 
 ---
 
